@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 1px;
+}
+.loginform {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.registerForm {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  gap: 20px;
+}
+.registerForm input {
+  width: 100%;
+  padding: 10px 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.registerForm__checkbox {
+  display: flex;
+  justify-content: space-between;
+}
+.register__element__label {
+  width: 60%;
+}
+.register__element__label input {
+  width: 10%;
+}
+.wallpaper-div {
+  flex-basis: 50%;
+  display: flex;
+}
+.wallpaper {
+  width: 150%;
+  height: 100vh;
+  background-color: #11325b;
+  object-fit: contain;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signUp {
+  display: flex;
+  justify-content: space-between;
+}
+.signUpBtn {
+  padding: 10px 10px;
+  background-color: #11325b;
+  color: white;
+  border: 1px solid grey;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.signUpBtn:hover {
+  background-color: #83a4b2;
+}
+.signWgoogle {
+  padding: 10px 10px;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 5px;
+  align-items: center;
+  cursor: pointer;
+}
+.signWgoogle:hover {
+  background-color: #83a4b2;
+}
+a {
+  text-decoration: none;
+  color: #83a4b2;
+}
+a:hover {
+  color: #46575e;
+}
